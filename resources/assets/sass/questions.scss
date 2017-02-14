@@ -1,0 +1,32 @@
+
+.title_wrap{
+  overflow: hidden;
+   p.title{
+     float:left;
+   }
+  .topic_wrap{
+    float:right;
+    span{
+      display:inline-block;
+      border:1px solid #00a2d4;
+      padding:3px 6px;
+      border-radius: 3px;
+      background:lightgrey;
+      &:hover{
+        background:#00a2d4;
+        color:white;
+        cursor:pointer;
+      }
+    }
+
+  }
+}
+.indexUserAvatar{
+  height:10rem;
+  width:10rem;
+}
+.answerUserAnwer{
+  height:5rem;
+  width:5rem;
+  border-radius:50%;
+}
